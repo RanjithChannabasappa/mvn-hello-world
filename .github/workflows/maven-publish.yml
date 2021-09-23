@@ -16,4 +16,4 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file pom.xml
     - name: deploy tomcat
-      run: curl -v -u manager:admin -T /home/runner/work/mvn-hello-world/mvn-hello-world/target/jb-hello-world-maven-0.1.0.jar 'http://ec2-52-66-214-26.ap-south-1.compute.amazonaws.com:8080//manager/text/deploy?path=/my_webb'
+      run: curl -v -u manager:admin -T /home/runner/work/mvn-hello-world/mvn-hello-world/target/jb-hello-world-maven-0.1.0.jar 'http://ec2-52-66-214-26.ap-south-1.compute.amazonaws.com:8080//manager/text/deploy?path=/my_webbb'
